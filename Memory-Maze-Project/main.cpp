@@ -1,7 +1,7 @@
 #include <iostream>
 
-const int mazeHeight = 11;
-const int mazeWidth = 11;
+const int mazeHeight = 22;
+const int mazeWidth = 22;
 char maze[mazeHeight][mazeWidth];
 
 void initMaze();

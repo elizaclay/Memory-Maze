@@ -3,6 +3,7 @@ name: Memory-Maze CI
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,7 +17,7 @@ jobs:
       run: sudo apt update && sudo apt install -y g++ make
 
     - name: Compile the project
-      run: g++ -o maze main.cpp
+      run: g++ Memory-Maze-Project/main.cpp -o maze  
 
     - name: Run the maze 
-      run: ./maze
+      run: ./maze  
