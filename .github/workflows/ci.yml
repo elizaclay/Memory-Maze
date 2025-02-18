@@ -1,4 +1,4 @@
-name: Memory Maze CI
+name: Memory-Maze CI
 
 on:
   push:
